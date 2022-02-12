@@ -1,16 +1,43 @@
+@import url('./home.css');
+@import url('./header.css');
+@import url('./projects.css');
+
 html,
 body {
-  padding: 0;
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
-}
-
-a {
-  color: inherit;
-  text-decoration: none;
+	padding: 0;
+	margin: 0;
+	background: linear-gradient(14deg, #000000 54%, #0000ff4d 72%, #000000 86%);
+	background-color: #000000;
+	height: 100vh;
+	color: white;
+	padding: 0;
+	margin: 0;
+	overflow-x: hidden;
 }
 
 * {
-  box-sizing: border-box;
+	font-family: 'Quicksand', sans-serif !important;
+}
+
+.container {
+	padding-left: 180px;
+	padding-right: 180px;
+}
+
+a {
+	color: inherit;
+	text-decoration: none !important;
+}
+
+a:hover {
+	transition: 100ms ease-in-out;
+	color: #a2a2ff;
+}
+
+*:focus-visible {
+	outline: 2px solid blue;
+}
+
+* {
+	box-sizing: border-box;
 }
