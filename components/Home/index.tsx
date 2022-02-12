@@ -14,7 +14,7 @@ export const Home = () => {
                     Vlad Polishchuk
                 </Typography>
                 <Typography className='home_description' component='h3'>
-                    I'm a Front-End developer from Russia, Belgorod city.
+                    I&apos;m a Front-End developer from Russia, Belgorod city.
                     I have been studying it for over a year and during this time
                     I have gained hands-on experience with many development tools,
                     the main one being React.js. I like complex tasks, so if you have it - write to me.
