@@ -36,7 +36,7 @@ export const Project: FC<Props> = ({
                     {projectDescription}
                 </Typography>
 
-                <Box sx={{ display: 'flex' }}>
+                <Box className='technologies'>
                     {technologies.map((technology: string) => {
                         return (
                             <Technology key={`${technology}_${Math.random()}`}>

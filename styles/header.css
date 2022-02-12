@@ -40,3 +40,15 @@
 .header_link_text {
 	font-size: 21px !important;
 }
+
+@media (max-width: 500px) {
+	.header_link {
+		padding: 10px;
+	}
+}
+
+@media (max-width: 400px) {
+	.header_link {
+		padding: 5px;
+	}
+}

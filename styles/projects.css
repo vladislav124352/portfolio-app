@@ -7,9 +7,30 @@
 	margin-bottom: 20px;
 }
 
+.technologies {
+	display: flex;
+	flex-flow: wrap;
+	gap: 8px;
+}
+
 .technology {
 	background: #6a00ff;
 	padding: 2px 8px;
-	margin-right: 5px;
 	border-radius: 5px;
+}
+
+@media (max-width: 500px) {
+	.technology {
+		font-size: 14px;
+	}
+
+	.projects {
+		padding: 20px 10px;
+	}
+}
+
+@media (max-width: 400px) {
+	.projects {
+		padding: 20px 5px;
+	}
 }
