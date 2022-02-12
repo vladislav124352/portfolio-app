@@ -1,10 +1,14 @@
 import { Box } from '@mui/material'
+import Head from 'next/head'
 import React from 'react'
 import { Project } from './Project'
 
 export const Projects = () => {
     return (
         <Box className='projects'>
+            <Head>
+                <title>Projects</title>
+            </Head>
             <Project
                 projectTitle='Notes App'
                 liveDemoLink='https://bestnotes.vercel.app'

@@ -1,11 +1,15 @@
 import { AlternateEmail, Facebook, GitHub, LinkedIn, Phone, Telegram } from '@mui/icons-material';
 import { Box, Typography } from '@mui/material';
+import Head from 'next/head';
 import React from 'react';
 import { Contact } from './Contact';
 
 export const Home = () => {
     return (
         <Box className='home'>
+            <Head>
+                <title>I am Vlad</title>
+            </Head>
             <Typography component='h2'>
                 Hi, I&apos;m
             </Typography>
