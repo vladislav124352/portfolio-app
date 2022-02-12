@@ -15,7 +15,7 @@ export const Home = () => {
             </Typography>
 
             <Typography className='home_name' component='h1'>
-                Vlad Polishchuk
+                Vlad Polischuk
             </Typography>
 
             <Typography className='home_description' component='h3'>
