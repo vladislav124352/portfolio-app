@@ -48,7 +48,7 @@ export const Home = () => {
 
                 <Contact
                     name='My linkedin profile'
-                    href='https://www.linkedin.com/in/vladislav-polishchuk-a785a522b/'>
+                    href='https://www.linkedin.com/in/vladislav-polischuk-a785a522b/'>
                     <LinkedIn />
                 </Contact>
 
