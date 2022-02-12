@@ -1,9 +1,8 @@
+import BoltIcon from '@mui/icons-material/Bolt';
 import { Container, List, ListItem, Typography } from '@mui/material';
 import { Box } from '@mui/system';
 import Link from 'next/link';
 import React from 'react';
-import AlternateEmailOutlinedIcon from '@mui/icons-material/AlternateEmailOutlined';
-import BoltIcon from '@mui/icons-material/Bolt';
 
 export const Header = () => {
     return (

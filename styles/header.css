@@ -8,13 +8,13 @@
 }
 
 .header-container {
-	display: flex;
+	display: flex !important;
 	align-items: center;
 	justify-content: space-between;
 }
 
 .header_me {
-	font-size: 24px;
+	font-size: 24px !important;
 }
 
 .header_list {
@@ -38,5 +38,5 @@
 }
 
 .header_link_text {
-	font-size: 21px;
+	font-size: 21px !important;
 }
