@@ -8,23 +8,24 @@ export const Home = () => {
     return (
         <Box className='home'>
             <Head>
-                <title>I am Vlad</title>
+                <title>I am Vladislav Polischuk</title>
             </Head>
             <Typography component='h2'>
                 Hi, I&apos;m
             </Typography>
 
             <Typography className='home_name' component='h1'>
-                Vlad Polischuk
+                Vladislav Polischuk
             </Typography>
 
             <Typography className='home_description' component='h3'>
-                I&apos;m a Front-End developer from Russia, Belgorod city.
-                I have been studying it for over a year and during this time
-                I have gained hands-on experience with many development tools,
-                the main one being React.js. I like complex tasks,
-                so if you have it - write to me. In addition,
-                I study psychology and management.
+                Hi everyone, I&apos;m a frontend developer.
+                At the moment, I have been studying this area on
+                my own for more than a year. I have experience in
+                developing both simple ToDo applications and quite
+                complex social networks. networks.
+                I like to communicate with people,
+                develop and solve interesting problems
             </Typography>
 
             <Box className='contacts'>
@@ -38,12 +39,6 @@ export const Home = () => {
                     name='My Facebook profile'
                     href='https://facebook.com/vladislav124352'>
                     <Facebook />
-                </Contact>
-
-                <Contact
-                    name='My Telegram profile'
-                    href='https://t.me/vladislav124352'>
-                    <Telegram />
                 </Contact>
 
                 <Contact
