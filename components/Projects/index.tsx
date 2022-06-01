@@ -34,20 +34,20 @@ export const Projects = () => {
                 projectDescription='This is a simple Calendar App' />
 
             <Project
-                projectTitle='Landing Page'
-                liveDemoLink='https://embedsocial.netlify.app'
-                githubLink='https://github.com/vladislav124352/embed-social'
-                technologies={['HTML5/CSS3', 'Tailwind.css', 'Scrolling Reveal']}
-                imageUrl='https://s3-alpha.figma.com/hub/file/689115664/afe6a9b1-e778-4484-ac93-6279ec990137-cover.png'
-                projectDescription='This is a landing page website from Anzhela Ristovskaya' />
+                projectTitle='Pacman Game'
+                liveDemoLink='https://pacman-game.vercel.app/'
+                githubLink='https://github.com/vladislav124352/pacman-game'
+                technologies={['HTML5/CSS3', 'Vanilla JS', 'Canvas']}
+                imageUrl='https://i.ibb.co/4Zsf8rN/Screenshot-2022-06-01-211411.png'
+                projectDescription='This is a simple pacman game' />
 
             <Project
-                projectTitle='Sei-Ki (in developing)'
-                liveDemoLink='https://seiki-frontend.vercel.app'
-                githubLink='https://github.com/vladislav124352/sei-ki-frontend'
-                technologies={['React', 'Redux Toolkit', 'Next.js', 'TypeScript', 'Chakra UI', 'Jest', 'Testing Library']}
-                imageUrl='https://i.ibb.co/Y8sJS8v/1.png'
-                projectDescription='This is the social network "Sei-Ki"' />
+                projectTitle='Chess Game'
+                liveDemoLink='https://my-chess.vercel.app/'
+                githubLink='https://github.com/vladislav124352/chess-app'
+                technologies={['HTML5/CSS3', 'Vanilla JS', 'jQuery', 'Bootstrap']}
+                imageUrl='https://i.ibb.co/mH6frr7/Screenshot-2022-06-01-211427.png'
+                projectDescription='This is a simple chess game.' />
         </Box>
     )
 }
